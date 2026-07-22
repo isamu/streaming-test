@@ -31,3 +31,8 @@ export const useLocalizedRoute = () => {
     router.push(localizedUrl(path));
   };
 };
+
+// Placeholder — no real auth backend in this app. `HeaderMenu.vue`
+// treats false as "show signin link" which matches the current
+// unauthenticated behaviour of the app.
+export const useIsSignedIn = () => computed(() => false);
