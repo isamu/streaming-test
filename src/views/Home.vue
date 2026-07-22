@@ -50,7 +50,7 @@ export default defineComponent({
   name: "HomePage",
   components: {},
   setup() {
-    const messages = ref([]);
+    const messages = ref<string[]>([]);
     const run = async (url: string) => {
       const generator = streamChatCompletion(url);
       for await (const token of generator) {

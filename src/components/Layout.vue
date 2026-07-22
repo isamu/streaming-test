@@ -32,6 +32,7 @@ import { useI18nParam } from "@/i18n/utils";
 
 import Languages from "@/components/Languages.vue";
 import MenuList from "@/components/MenuList.vue";
+interface User { uid?: string }
 interface UserData {
   user: User | null;
 }
