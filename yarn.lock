@@ -544,47 +544,13 @@
     "@typescript-eslint/types" "8.65.0"
     eslint-visitor-keys "^5.0.0"
 
-"@unhead/dom@1.11.20", "@unhead/dom@^1.3.1":
-  version "1.11.20"
-  resolved "https://registry.yarnpkg.com/@unhead/dom/-/dom-1.11.20.tgz#b777f439e1c5f80ebcceb89aa45c45e877013c62"
-  integrity sha512-jgfGYdOH+xHJF/j8gudjsYu3oIjFyXhCWcgKaw3vQnT616gSqyqnGQGOItL+BQtQZACKNISwIfx5PuOtztMKLA==
+"@unhead/vue@^2":
+  version "2.1.16"
+  resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-2.1.16.tgz#2cf22116e78790fbca06d297752cd86d0e5c81a2"
+  integrity sha512-t6QykImeMJcrUTbFB0Coy0cB/OZItHdQFRFLoH8GAVXKWmQORGPrwvueP9me7adOCuMH2uVvrv0nCkbi6zksaA==
   dependencies:
-    "@unhead/schema" "1.11.20"
-    "@unhead/shared" "1.11.20"
-
-"@unhead/schema@1.11.20", "@unhead/schema@^1.3.1":
-  version "1.11.20"
-  resolved "https://registry.yarnpkg.com/@unhead/schema/-/schema-1.11.20.tgz#e4341832a203b990380df906391e9039501257fa"
-  integrity sha512-0zWykKAaJdm+/Y7yi/Yds20PrUK7XabLe9c3IRcjnwYmSWY6z0Cr19VIs3ozCj8P+GhR+/TI2mwtGlueCEYouA==
-  dependencies:
-    hookable "^5.5.3"
-    zhead "^2.2.4"
-
-"@unhead/shared@1.11.20":
-  version "1.11.20"
-  resolved "https://registry.yarnpkg.com/@unhead/shared/-/shared-1.11.20.tgz#593926bff62d88cda9a19b9d41d2bcdb3ed08da4"
-  integrity sha512-1MOrBkGgkUXS+sOKz/DBh4U20DNoITlJwpmvSInxEUNhghSNb56S0RnaHRq0iHkhrO/cDgz2zvfdlRpoPLGI3w==
-  dependencies:
-    "@unhead/schema" "1.11.20"
-    packrup "^0.1.2"
-
-"@unhead/ssr@^1.3.1":
-  version "1.11.20"
-  resolved "https://registry.yarnpkg.com/@unhead/ssr/-/ssr-1.11.20.tgz#3f52fc0a9c5691c24f97a24deccb937b4ec20f6e"
-  integrity sha512-j6ehzmdWGAvv0TEZyLE3WBnG1ULnsbKQcLqBDh3fvKS6b3xutcVZB7mjvrVE7ckSZt6WwOtG0ED3NJDS7IjzBA==
-  dependencies:
-    "@unhead/schema" "1.11.20"
-    "@unhead/shared" "1.11.20"
-
-"@unhead/vue@^1.3.1":
-  version "1.11.20"
-  resolved "https://registry.yarnpkg.com/@unhead/vue/-/vue-1.11.20.tgz#609513751abfd2d20426d2e97337f3a76fbb8b12"
-  integrity sha512-sqQaLbwqY9TvLEGeq8Fd7+F2TIuV3nZ5ihVISHjWpAM3y7DwNWRU7NmT9+yYT+2/jw1Vjwdkv5/HvDnvCLrgmg==
-  dependencies:
-    "@unhead/schema" "1.11.20"
-    "@unhead/shared" "1.11.20"
-    hookable "^5.5.3"
-    unhead "1.11.20"
+    hookable "^6.0.1"
+    unhead "2.1.16"
 
 "@vitejs/plugin-vue@^4.5.2":
   version "4.6.2"
@@ -720,16 +686,6 @@
   version "3.5.40"
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.5.40.tgz#fc09d1871d66cd9b01959a597b41d7cb61f716a8"
   integrity sha512-WxnBtruIqOoV3rA4jeKDWzrYI5h7Cp4+pjwDi8kWGHz+IslhiN+wguLVVhtv2l8VoU02rzDCVfDjgCl1lNpZVg==
-
-"@vueuse/head@^1.0.16":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-1.3.1.tgz#2baa11a8fd4f3f763474792c4ff91c818bf83051"
-  integrity sha512-XCcHGfDzkGlHS7KIPJVYN//L7jpfASLsN7MUE19ndHVQLnPIDxqFLDl7IROsY81PKzawVAUe4OYVWcGixseWxA==
-  dependencies:
-    "@unhead/dom" "^1.3.1"
-    "@unhead/schema" "^1.3.1"
-    "@unhead/ssr" "^1.3.1"
-    "@unhead/vue" "^1.3.1"
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
@@ -1306,10 +1262,10 @@ hasown@^2.0.3:
   dependencies:
     function-bind "^1.1.2"
 
-hookable@^5.5.3:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/hookable/-/hookable-5.5.3.tgz#6cfc358984a1ef991e2518cb9ed4a778bbd3215d"
-  integrity sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ==
+hookable@^6.0.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/hookable/-/hookable-6.1.1.tgz#825f966b4b426db2e622d94d7a31a70f196f9d2f"
+  integrity sha512-U9LYDy1CwhMCnprUfeAZWZGByVbhd54hwepegYTK7Pi5NvqEj63ifz5z+xukznehT7i6NIZRu89Ay1AZmRsLEQ==
 
 ignore@^5.2.0:
   version "5.3.2"
@@ -1560,11 +1516,6 @@ p-locate@^5.0.0:
   integrity sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==
   dependencies:
     p-limit "^3.0.2"
-
-packrup@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/packrup/-/packrup-0.1.2.tgz#7e6c50e5b79a1e68cd717e79fd06d40abb8f1583"
-  integrity sha512-ZcKU7zrr5GlonoS9cxxrb5HVswGnyj6jQvwFBa6p5VFw7G71VAHcUKL5wyZSU/ECtPM/9gacWxy2KFQKt1gMNA==
 
 path-browserify@^1.0.1:
   version "1.0.1"
@@ -1951,15 +1902,12 @@ typescript-eslint@^8.60.0, typescript-eslint@^8.65.0:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.3.tgz#90251dc007916e972786cb94d74d15b185577d21"
   integrity sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==
 
-unhead@1.11.20:
-  version "1.11.20"
-  resolved "https://registry.yarnpkg.com/unhead/-/unhead-1.11.20.tgz#910af0ddaac0bca24d32b4dbe0d6291cd813b9bc"
-  integrity sha512-3AsNQC0pjwlLqEYHLjtichGWankK8yqmocReITecmpB1H0aOabeESueyy+8X1gyJx4ftZVwo9hqQ4O3fPWffCA==
+unhead@2.1.16:
+  version "2.1.16"
+  resolved "https://registry.yarnpkg.com/unhead/-/unhead-2.1.16.tgz#31dd226a959c1cc3d15b8c38a1faf8d515f7ea0b"
+  integrity sha512-cD2Q4a6SQHhW9/bPp17NT4GJ1yS0DSLe75WEHKQ8bKa/wjB6cIki3KeL86hhllNBcpv8i6bxdwtwQunneXPqKQ==
   dependencies:
-    "@unhead/dom" "1.11.20"
-    "@unhead/schema" "1.11.20"
-    "@unhead/shared" "1.11.20"
-    hookable "^5.5.3"
+    hookable "^6.0.1"
 
 universalify@^2.0.0:
   version "2.0.1"
@@ -2140,8 +2088,3 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
-
-zhead@^2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/zhead/-/zhead-2.2.4.tgz#87cd1e2c3d2f465fa9f43b8db23f9716dfe6bed7"
-  integrity sha512-8F0OI5dpWIA5IGG5NHUg9staDwz/ZPxZtvGVf01j7vHqSyZ0raHY+78atOVxRqb73AotX22uV1pXt3gYSstGag==
